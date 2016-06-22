@@ -1,0 +1,51 @@
+.products
+	.product-wrapper
+		overflow: auto
+		margin: auto
+
+		.product-info
+			padding-left: 15px
+			box-sizing: border-box
+
+		.product-title
+			text-align: center
+			padding: 20px 0
+			font-size: 36px
+			line-height: 1.2
+
+		.product-price
+			margin-top: 15px
+			font-size: 38px
+			line-height: 1.2
+			strong
+				font-weight: bold
+
+				sup
+					vertical-align: text-top
+					font-size: 16px
+					top: 5px
+
+		.product-qty, .product-payments
+			label
+				text-align: left
+				width: 55px
+
+			select
+				width: auto
+				padding: 0px 10px
+				display: inline-block
+
+		.product-image
+			padding: 10px 15px
+			box-sizing: border-box
+
+			@media screen and(max-width: 767px)
+				width: 100%
+			
+			figure
+				border: 1px solid $grey-color
+				background-color: #fff
+				padding: 25px 0
+
+				img
+					max-width: 100%

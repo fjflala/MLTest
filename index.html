@@ -1,1 +1,135 @@
-"My Page" 
+<!Doctype html>
+<!--[if IE 7]>  <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>  <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+	    <title>Mercado Libre - Prueba para front-end</title>
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	    <!--[if IE 8]>
+		    <script src="http://ui.mlstatic.com/polyfills/es5/4.1.13/es5-shim.min.js"></script>
+		    <script src="http://ui.mlstatic.com/polyfills/es5/4.1.13/es5-sham.min.js"></script>
+	    <![endif]-->
+		<link rel="stylesheet" type="text/css" href="build/css/app.css">
+	</head>
+	<body>
+		<main role="main">
+			<header role="header">
+				<h1>Mercado Libre</h1>
+			</header>
+			<section class="products">
+				<article class="product-wrapper">
+					<div class="bg-grey">
+						<div class="container">
+							<div class="ch-g1">
+								<h2 class="product-title">Ipad Mini Apple 16 GB Wifi LED 7.9</h2>
+							</div>
+							<div class="ch-g2-5 product-image">
+								<a id="product-image" class="zoom" href="dist/images/product.jpg">
+									<figure>
+										<img src="dist/images/product.jpg" id="product-image" alt="Ipad Mini great Offer">
+									</figure>
+								</a>
+							</div>
+							<form class="ch-g3-5 product-info" role="content">
+								<div class="ch-g1">
+									<div class="product-price ch-price">
+										<strong>$4799 <sup>99</sup></strong>
+									</div>
+									<div class="product-qty ch-form-row">
+										<label for="qty">Quantity: </label>
+										<select id="qty" role="dropdown" aria-required="true" aria-valuemin="1" aria-valuemax="3">
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+										</select>
+									</div>
+									<div class="product-payments ch-form-row">
+										<label for="payments">Payments: </label>
+										<select id="payments" role="dropdown" aria-required="true" aria-valuemin="1" aria-valuemax="12">
+											<option value="1">1</option>
+											<option value="3">3</option>
+											<option value="6">6</option>
+											<option value="12">12</option>
+										</select>
+									</div>
+									<div class="product-buy ch-form-row">
+										<a href="#" class="ch-btn ch-btn-big" aria-label="Buy!" role="button">Buy</a>
+									</div>
+									<div class="ch-g1">
+										<small>MercadoLibre isn't the owner of this product</small>
+									</div>
+									<div role="slider" class="product-related ch-g1-2">
+										<h3>More products like this</h3>
+										<div id="product-related" class="ch-carousel">
+											<ul>
+												<li>
+													<figure>
+														<img src="dist/images/product.jpg" alt="Awesome Ipad Mini">
+													</figure>
+												</li>
+												<li>
+													<figure>
+														<img src="dist/images/product.jpg" alt="Awesome Ipad Mini">
+													</figure>
+												</li>
+												<li>
+													<figure>
+														<img src="dist/images/product.jpg" alt="Awesome Ipad Mini">
+													</figure>
+												</li>
+												<li>
+													<figure>
+														<img src="dist/images/product.jpg" alt="Awesome Ipad Mini">
+													</figure>
+												</li>
+												<li>
+													<figure>
+														<img src="dist/images/product.jpg" alt="Awesome Ipad Mini">
+													</figure>
+												</li>
+												<li>
+													<figure>
+														<img src="dist/images/product.jpg" alt="Awesome Ipad Mini">
+													</figure>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="ch-g1" style="background-color: #fff">
+						<div class="container">
+							<div class="tabs-container">
+								<div class="tabs-header">
+						            <a href="#description" class="ch-tab" role="tab" aria-label="Description">Product description</a>
+						            <a href="#questions" class="ch-tab" role="tab" aria-label="Questions">Questions</a>
+								</div>
+
+					            <div class="tab" id="description">
+					                <p>Great product to read news in the morning.</p>
+					            </div>
+					            <div class="tab questions default-tab">
+					                <p>Buyer</p>
+					                <div class="ch-box-info">
+					                    <p>Do you have it in black color?</p>
+					                </div>
+					                <p>Seller</p>
+					                <div class="ch-box-ok">
+					                    <p>Yes, I have!</p>
+					                </div>
+					            </div>
+					        </div>
+						</div>
+					</div>
+				</article>
+			</section>
+		</main>
+		<script type="text/javascript" src="build/js/app.min.js"></script>
+	</body>
+</html>

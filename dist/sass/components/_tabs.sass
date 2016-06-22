@@ -1,0 +1,20 @@
+.tabs-container
+	padding: 20px 0
+
+	.tabs-header
+		border-bottom: 1px solid $grey-color
+
+	#description:target, #questions:target
+		display: block
+
+
+
+
+	.tab
+		display: none
+		padding: 10px 15px
+		&.default-tab
+			display: block
+
+.tabs-container :target~.default-tab
+	display: none
